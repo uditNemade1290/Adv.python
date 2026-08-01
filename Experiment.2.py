@@ -18,7 +18,7 @@ class Report:
         return f"Report Title: {self.title}"
 
     @uppercase_decorator
-    def generate(self):
+    def generate(self): 
         return f"This is the report: {self.title}"
 
 
